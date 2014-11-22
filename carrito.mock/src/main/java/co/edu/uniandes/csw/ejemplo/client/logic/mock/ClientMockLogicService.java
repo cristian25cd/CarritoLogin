@@ -33,7 +33,8 @@ import javax.enterprise.inject.Alternative;
 import javax.inject.Singleton;
 @Singleton
 public class ClientMockLogicService extends _ClientMockLogicService implements IClientLogicService {
-	public ClientDTO getClientId(String name) {
+	
+    public ClientDTO getClientId(String name) {
         return null;
-        }
+    }
 }
